@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        
+    ],
+
+    "inputs": [
+        {
+            "id": "dotEnvFilePath",
+            "type": "command",
+            "command": "azure-dev.commands.getDotEnvFilePath"
+        }
+    ]
+}

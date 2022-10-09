@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: deno-azd-template-aca
+metadata:
+  template: deno-azd-template-aca@0.0.1-beta
+services:
+  web:
+    project: ./src/web
+    module: app/web
+    language: js
+    host: containerapp
